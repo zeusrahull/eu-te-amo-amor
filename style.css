@@ -1,16 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;800&display=swap');
-body{
-    margin:0;
-    padding:0;
-    overflow-x:hidden;
-
-    display:flex;
-    justify-content:center;
-}
-
-img, audio, button{
-    max-width:100%;
-}
 
 *{
     margin:0;
@@ -35,14 +23,18 @@ body{
 /* SEÇÕES */
 
 .card{
-    width:100%;
-    max-width:420px;
+    min-height:100vh;
 
-    margin:0 auto;
+    padding:40px 20px;
 
-    padding:40px 15px;
-    box-sizing:border-box;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+
+    text-align:center;
 }
+
 /* TÍTULOS */
 
 h1{
